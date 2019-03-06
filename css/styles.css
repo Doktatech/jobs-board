@@ -1,0 +1,44 @@
+h3{
+  background-color: violet;
+}
+#number{
+  border-style: solid;
+    border-color: violet;
+  border-width: 2px 2px 2px 2px;
+}
+#email{
+  border-style: solid;
+    border-color: violet;
+  border-width: 2px 2px 2px 2px;
+}
+.label-password{
+  display: block;
+}
+#username{
+  border-style: solid;
+    border-color: violet;
+  border-width: 2px 2px 2px 2px;
+}
+#fullnames{
+  border-style: solid;
+    border-color: violet;
+  border-width: 2px 2px 2px 2px;
+}
+#pass{
+  border-style: solid;
+    border-color: violet;
+  border-width: 2px 2px 2px 2px;
+}
+#pass2{
+  border-style: solid;
+    border-color: violet;
+  border-width: 2px 2px 2px 2px;
+}
+#DOB{
+  border-style: solid;
+    border-color: violet;
+  border-width: 2px 2px 2px 2px;
+}
+#prudy{
+  background-color: violet;
+}
