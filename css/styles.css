@@ -21,3 +21,15 @@
 .container {
   text-align: center;
 }
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+body{
+  background-image: url(../img/download.jp);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
