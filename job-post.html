@@ -10,20 +10,41 @@
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron">
+      <div id="jumbotron" class="jumbotron">
         <h1>POST A JOB</h1>
       </div>
-      <br><br>
+      <div class="row">
+       <div class="col-md-7">
+        <br><br>
       <h2>What job would you like done?</h2>
       <form class="" action="index.html" method="post">
         <input type="text" name="jobtype">
       </form>
-      <h2>Job Description</h2>
+      <h2>Deatils:</h2>
       <form class="" action="index.html" method="post">
         <textarea name="name" rows="15" cols="40"></textarea>
         <br>
         <input type="submit" name="description">
       </form>
+      </div>
+      <div class="col-md-5">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+        <h1 class="">What to include.</h1>
+          </div>
+        <ul>
+          <li>The type of job</li>
+          <li>Duration of the job</li>
+          <li>Starting date and date of completion</li>
+          <li>amount offered for the services</li>
+          <li>Your contact details</li>
+        </ul>
+        </div>
+      </div>
+
+       </div>
+     </div>
+
     </div>
   </body>
 </html>
