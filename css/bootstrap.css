@@ -5702,6 +5702,7 @@ button.list-group-item-danger.active:focus {
 }
 .panel-default > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #ddd;
+  
 }
 .panel-primary {
   border-color: #337ab7;
