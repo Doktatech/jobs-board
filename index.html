@@ -8,12 +8,13 @@
     <meta charset="utf-8">
     <title>Jobs Board</title>
   </head>
-  <body>
+  <body class="naliaka">
     <div class="container">
       <form class="requirements">
-        <h3>Create account</h3><br>
+       <!-- <div class="panel panel-default"> -->
+        <h3 class="">Create account</h3><br>
         <div class="fullnames!">
-         <p>Enter your full names:</p>
+         <p >Enter your full names:</p>
          <input type="text" id="fullnames" name="name" required
          minlength="8" maxlength="20" size="">
         </div>
@@ -36,10 +37,19 @@
         </div>
         <div class="password!">
          <p>Enter your password(minimum length 8characters):</p>
-         <input type="password" id="pass" name="password"minlength="8" required>
+         <input type="password" id="pass" name="password" minlength="8" required>
+        </div>
+        <div class="password">
+          <p>Confirm Password</p>
+          <input type="password" id="pass2" name="password" minlength="8" required>
         </div>
       </form><br>
-      <input type="submit" value="Signup">
+      <!-- <div class="panel-footer"> -->
+        <input type="submit" id="prudy" value="Signup">
+      </div>
+
+      <!-- </div> -->
+    <!-- </div> -->
 
 
     </div>
