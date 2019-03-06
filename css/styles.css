@@ -23,3 +23,9 @@ nav{
     font-style: normal;
     font-size: 40px;
 }
+.login-page{
+    background-image: url(../img/hustle.jpg);    
+   background-repeat:no-repeat;
+   background-size:cover;
+}
+
