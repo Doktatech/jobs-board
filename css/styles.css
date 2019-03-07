@@ -1,14 +1,19 @@
-h3{
-  background-color: violet;
+.container {
+  opacity: 0.8;
+  
 }
-#number{
+.jumbotron{
+  /* background-color: transparent; */
+  /* opacity: 0.8; */
+}
+#phone{
   border-style: solid;
-    border-color: violet;
+    border-color: blue;
   border-width: 2px 2px 2px 2px;
 }
 #email{
   border-style: solid;
-    border-color: violet;
+    border-color:blue;
   border-width: 2px 2px 2px 2px;
 }
 .label-password{
@@ -16,29 +21,46 @@ h3{
 }
 #username{
   border-style: solid;
-    border-color: violet;
+    border-color:blue;
   border-width: 2px 2px 2px 2px;
 }
 #fullnames{
   border-style: solid;
-    border-color: violet;
+    border-color: blue;
   border-width: 2px 2px 2px 2px;
 }
-#pass{
+#pass1{
   border-style: solid;
-    border-color: violet;
+    border-color: blue;
   border-width: 2px 2px 2px 2px;
 }
 #pass2{
   border-style: solid;
-    border-color: violet;
+    border-color:blue;
   border-width: 2px 2px 2px 2px;
 }
 #DOB{
   border-style: solid;
-    border-color: violet;
+    border-color: blue;
   border-width: 2px 2px 2px 2px;
 }
 #prudy{
-  background-color: violet;
+  background-color: blue;
+}
+.requirements{
+  text-align: center;
+  opacity: 0.8;
+  /* background-color: transparent; */
+}
+.pesho{
+  text-align: center;
+}
+.naliaka{
+  background-image: url(../img/workers.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.requirements{
+  background: none;
 }
