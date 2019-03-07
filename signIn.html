@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
   </head>
   <body class="login-page">
-    <header role="banner">
-      <nav class="navigator">        
-          <p class="nav-paragraph">Welcome Here. Please Sign In to continue</p>    
-      </nav>
-    </header>      
+    <div class="jumbotron">             
+       <h1 class="nav-header" style="text-align:center">Please Sign In to continue</h1>   
+      
+    </div>      
       <div class="login-container panel panel-default">
         <div class="panel-heading">
           <h1 class="panel-title">Login</h1>
@@ -32,13 +31,13 @@
                         <label for="checkbox">Remember me?</label>
                       </div>
                       <div>
-                        <input type="button" value="Sign In" onclick="" >       
+                        <input type="button" value="Sign In" onclick="location.href='jobs-posts.html'" id='sign-up' >       
                       </div>
                 </fieldset>  
             </form>                  
         </div> 
         <div class="panel-footer"> 
-            <p class="register">First time here?<span class="sigup-click">Sign Up</span> </p>
+            <p class="register">First time here?<a href="signup.html">SIGN UP.</a></p>
         </div>       
       </div>     
   

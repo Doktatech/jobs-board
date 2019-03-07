@@ -5,27 +5,21 @@
 .login-label{
     display: block;
 }
-nav{
-    background-color: aliceblue;
-    border: 1px saddlebrown;
-    border-radius: 4px;
-    display: block; 
-    margin: 25px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    overflow:hidden; 
-    padding-left: 25px;   
-}
-.nav-paragraph{
-    text-decoration-color: black;
+.nav-header{
+    text-decoration-color: seagreen;
     text-emphasis: initial;
     font-style: normal;
     font-size: 40px;
 }
 .login-page{
     background-image: url(../img/hustle.jpg);    
-   background-repeat:no-repeat;
-   background-size:cover;
+    background-repeat:no-repeat;
+    background-size:cover;
 }
-
+.jumbotron{
+    background-color: transparent;
+    
+}
+h1{
+    color: green;
+}
