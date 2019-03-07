@@ -10,49 +10,43 @@
   </head>
   <body class="naliaka">
     <div class="container">
+        <h1 class="">Create account</h1><br>
       <form class="requirements">
-       <!-- <div class="panel panel-default"> -->
-        <h3 class="">Create account</h3><br>
-        <div class="fullnames!">
-         <p >Enter your full names:</p>
-         <input type="text" id="fullnames" name="name" required
-         minlength="8" maxlength="20" size="">
+      <div class="panel panel-default">
+        <div class="">
+          <div class="fullnames!">
+           <p >Enter your full names:</p>
+           <input type="text" id="fullnames" placeholder="Full Name" name="name" required
+           minlength="8" maxlength="20" size="">
+          </div>
+          <div class="Email!">
+           <p>Enter your email:</p>
+           <input type="email" id="email" pattern="naliaka@mail.com" placeholder="naliaka@mail.com" required>
+          </div>
+          <div class="number!">
+            <p>Enter your telephone number:</p>
+            <input type="number" id="phone" name="number" placeholder="+254700000001" pattern="[0-9]{10}"required>
+          </div>
+          <div class="username!">
+            <p>Enter your username:</p>
+            <input type="text" id="username" name="name" required placeholder="Username"minlength="8" maxlength="20" size="">
+          </div>
+          <div class="Birthdate">
+            <p>Enter your birthdate:</p>
+            <input type="date" id="DOB" name="birthdate"value="">
+          </div>
+          <div class="password!">
+           <p>Enter your password(minimum length 8characters):</p>
+           <input type="password" id="pass1" placeholder="Password" name="password" minlength="8" required>
         </div>
-        <div class="Email!">
-         <p>Enter your email:</p>
-         <input type="email" id="email" pattern=".+@globex.com" size="" required>
+      </div>
+      </form>
+      <br>
+      <form class="pesho">
+        <div class="pesho">
+          <input type="button" id="prudy" value="Signup" onclick="location.href='signIn.html'" >
         </div>
-        <div class="number!">
-          <p>Enter your number:</p>
-          <input id="number" type="number" value="">
-        </div>
-        <div class="username!">
-          <p>Enter your username:</p>
-          <input type="text" id="username" name="name" required
-          minlength="8" maxlength="20" size="">
-        </div>
-        <div class="Birthdate">
-          <p>Enter your birthdate:</p>
-          <input type="date" id="DOB" name="birthdate"value="">
-        </div>
-        <div class="password!">
-         <p>Enter your password(minimum length 8characters):</p>
-         <input type="password" id="pass" name="password" minlength="8" required>
-        </div>
-        <div class="password">
-          <p>Confirm Password</p>
-          <input type="password" id="pass2" name="password" minlength="8" required>
-        </div>
-      </form><br>
-      <!-- <div class="panel-footer"> -->
-        <form action="http://signIn.html">
-        <input type="submit" id="prudy" value="Signup">
-        </form>
-        </div>
-
-      <!-- </div> -->
-    <!-- </div> -->
-
+       </div>
 
     </div>
   </body>
