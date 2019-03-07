@@ -2,3 +2,8 @@
   text-align: center;
   background-color: #337ab7
 }
+#jobType, #duration, #amount, #phoneNumber, #email, #description, #idNumber{
+  border-style: solid;
+  border-color: #337ab7;
+  border-width: medium;
+}
