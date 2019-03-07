@@ -1,14 +1,18 @@
 "use strict"
 //business logic
-function Details (jobType, duration, amount, phoneNumber, email, idNumber, description){
+function Details (jobType, duration, amount, phoneNumber, email, idNumber,location,peopleNumber, description ){
+  console.log(jobType, duration, amount, phoneNumber, email, phoneNumber, description, location)
   this.jobType= jobType;
   this.duration= duration;
   this.amount= amount;
   this.phoneNumber= phoneNumber;
   this.email= email;
-  this.idNumber= phone;
+  this.idNumber= idNumber;
+  this.location= location;
+  this.peopleNumber= peopleNumber;
   this.description= description;
-  this.peopleNumber= people;
+
+
 }
 
 //user interface logic
@@ -16,29 +20,36 @@ $(document).ready(function(){
   $("form#new-details").submit(function(event){
     event.preventDefault();
 
-    var inputtedJobType = document.getElementById("#jobType").value;
-    var inputtedDuration=document.getElementById("#duration").value;
-    var inputtedAmount=document.getElementById("#amount").value;
-    var inputtedPhoneNumber=document.getElementById("#phoneNumber").value;
-    var inputtedEmail=document.getElementById("#email").value;
-    var inputtedIdNumber=document.getElementById("#phone").value;
-    var inputtedDescription=document.getElementById("#description").value;
-    var inputtedLocation=document.getElementById("#location").value;
-    var inputtedPeopleNumber=document.getElementById("#peopleNumber").value;
+    var inputtedJobType = document.getElementById("jobType").value;
+    var inputtedDuration=document.getElementById("duration").value;
+    var inputtedAmount=document.getElementById("amount").value;
+    var inputtedPhoneNumber=document.getElementById("phoneNumber").value;
+    var inputtedEmail=document.getElementById("email").value;
+    var inputtedIdNumber=document.getElementById("tel").value;
+    var inputtedDescription=document.getElementById("description").value;
+    var inputtedLocation=document.getElementById("location").value;
+    var inputtedPeopleNumber=document.getElementById("peopleNumber").value;
 
 
-    var newDetails = new Details(inputtedEmail, inputtedAmount, inputtedJobType, inputtedDuration, inputtedIdNumber, inputtedLocation, inputtedDescription, inputtedPhoneNumber);
+    var newDetails = new Details(inputtedJobType, inputtedDuration, inputtedAmount, inputtedPhoneNumber, inputtedEmail, inputtedIdNumber, inputtedLocation, inputtedPeopleNumber,inputtedDescription );
 
-    $("ul#detail").append("<li><span class='detail'>" + newDetails.jobType + newDetails.duration + newDetails.idNumber + newDetails.amount+ newDetails.phoneNumber + newDetails.digits + newDetails.location +"</span></li>");
-    // $("#one").text(inputtedJobType);
-    // $("#two").text(inputtedDuration);
-    // $("#three").text(inputtedAmount);
-    // $("#four").text(inputtedPhoneNumber);
-    // $("#five").text(inputtedEmail);
-    // $("#six").text(inputtedIdNumber);
-    // $("#seven").text(inputtedDescription);
-    // $("#eight").text(inputtedLocation);
-    // $("#nine").text(inputtedPeopleNumber);
+    $("p#A").append("<p>Job Type:<span class='detail'>" + newDetails.jobType +"</span></p>");
+    $("p#B").append("<p><span class='detail'>" +"Job Type:"+  newDetails.duration + "</span></p>");
+    $("p#C").append("<p><span class='detail'>" +"Amount:"+ newDetails.amount +"</span></p>");
+    $("p#D").append("<p><span class='detail'>" +"Phone Number:"+newDetails.phoneNumber +"</span></p>");
+    $("p#E").append("<p><span class='detail'>" +"Email Adress:"+newDetails.email +"</span></p>");
+    $("p#F").append("<p><span class='detail'>" +"Id Number:"+newDetails.idNumber + "</span></p>");
+    $("p#G").append("<p><span class='detail'>" +"Location:"+newDetails.location +"</span></p>");
+    $("p#H").append("<p><span class='detail'>" +"Number of Employees Needed:"+newDetails.peopleNumber +"</span></p>");
+    $("p#I").append("<p><span class='detail'>" +"Description:"+newDetails.description+"</span></p>");
+
+
+
+
+
+
+
+
 
 
 
